@@ -100,15 +100,15 @@
 }
 
 #quick-list {
+  max-width: 1320px;
   display: flex;
-  margin-top: 85px;
+  margin: 85px auto 0px;
 }
 
 #quick-list-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
-  padding-left: 300px;
 }
 
 #quick-list-gallery .img-container {
@@ -123,7 +123,6 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 75px;
-  padding-right: 300px;
 }
 
 #quick-list-info-title {
@@ -187,6 +186,25 @@
   #header-banner {
     padding: 0px 10px 15px;
   }
+
+  #quick-list {
+    flex-direction: column;
+    margin-top: 55px;
+  }
+
+  #quick-list-gallery {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 35px;
+  }
+
+  #quick-list-gallery .img-container {
+    margin: 0px auto;
+    border: none;
+  }
+
+  #quick-list-info {
+    padding: 0px 10px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -222,6 +240,25 @@
   #header-banner {
     padding: 0px 10px 15px;
   }
+
+  #quick-list {
+    flex-direction: column;
+    margin-top: 55px;
+  }
+
+  #quick-list-gallery {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 35px;
+  }
+
+  #quick-list-gallery .img-container {
+    margin: 0px auto;
+    border: none;
+  }
+
+  #quick-list-info {
+    padding: 0px 10px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -252,6 +289,23 @@
   #header-banner {
     padding: 0px 10px 15px;
   }
+
+  #quick-list {
+    flex-direction: column;
+    margin-top: 65px;
+  }
+
+  #quick-list-gallery {
+    padding-bottom: 45px;
+  }
+
+  #quick-list-gallery .img-container {
+    margin: 0px auto;
+  }
+
+  #quick-list-info {
+    padding: 0px 10px;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1460px) {
@@ -260,5 +314,22 @@
   }
   #header-banner {
     padding: 0px 10px 25px;
+  }
+
+  #quick-list {
+    margin-top: 75px;
+  }
+
+  #quick-list-gallery {
+    padding-left: 10px;
+  }
+
+  #quick-list-gallery .img-container {
+    width: 275px;
+    height: 275px;
+  }
+
+  #quick-list-info {
+    padding: 0px 10px 0px 30px;
   }
 }

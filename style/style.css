@@ -149,6 +149,98 @@
   padding: 24px 0px;
 }
 
+#feature-section {
+  max-width: 1440px;
+  max-height: 1060px;
+  display: flex;
+  margin: 130px auto 0px;
+}
+
+#feature-section .info {
+  max-width: 640px;
+  box-sizing: border-box;
+  padding: 35px 54px 35px 0px;
+}
+
+#feature-section .title {
+  color: rgb(19, 19, 19);
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  border-left: 5px rgb(255, 144, 14) solid;
+  padding-left: 25px;
+  max-width: 468px;
+}
+
+#feature-section .subtitle {
+  color: rgb(114, 114, 114);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: justify;
+  padding-top: 24px;
+  padding-bottom: 10px;
+}
+
+.feature-card {
+  max-width: 586px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.feature-card .card-title {
+  color: rgb(19, 19, 19);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+.feature-card .card-subtitle {
+  color: rgb(114, 114, 114);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+#feature-section .container {
+  position: relative;
+}
+
+#feature-section .container .section-img-container {
+  padding-left: 92px;
+}
+
+#feature-section .experience-card {
+  position: absolute;
+  bottom: 0px;
+  width: 342px;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+  padding: 45px 42px;
+}
+
+#feature-section .experience-card > h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+  text-align: center;
+}
+
+#feature-section .experience-card > p {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+}
+
 @media screen and (max-width: 576px) {
   #nav-section {
     display: block;

@@ -345,6 +345,7 @@
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.4375rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 576px) {
@@ -467,6 +468,10 @@
     justify-content: center;
     gap: 2rem;
   }
+
+  #footer {
+    margin: 5.5rem 0.625rem 1.5rem;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -583,6 +588,10 @@
     justify-content: center;
     gap: 2rem;
   }
+
+  #footer {
+    margin: 5.5rem 0.625rem 1.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -676,6 +685,10 @@
     justify-content: center;
     gap: 2rem;
   }
+
+  #footer {
+    margin: 5.5rem 0.625rem 1.5rem;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1460px) {
@@ -746,5 +759,9 @@
 
   #sponsors-section .sponsors-logo {
     padding: 3rem 0.625rem 0rem;
+  }
+
+  #footer {
+    margin: 5.5rem 0.625rem 1.5rem;
   }
 }
